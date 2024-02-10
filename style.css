@@ -1,0 +1,31 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+}
